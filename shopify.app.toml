@@ -3,7 +3,7 @@
 client_id = "d238c3095cecd7d66f7c087f642035cd"
 name = "MyPosExtension"
 handle = "myposextension"
-application_url = "https://gerald-seeds-calvin-variety.trycloudflare.com"
+application_url = "https://ta-room-cnet-needed.trycloudflare.com"
 embedded = true
 
 [build]
@@ -23,10 +23,10 @@ api_version = "2025-07"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "read_products,read_inventory,write_inventory,read_locations,read_markets_home"
 
 [auth]
-redirect_urls = ["https://gerald-seeds-calvin-variety.trycloudflare.com/auth/callback", "https://gerald-seeds-calvin-variety.trycloudflare.com/auth/shopify/callback", "https://gerald-seeds-calvin-variety.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://ta-room-cnet-needed.trycloudflare.com/auth/callback", "https://ta-room-cnet-needed.trycloudflare.com/auth/shopify/callback", "https://ta-room-cnet-needed.trycloudflare.com/api/auth/callback"]
 
 [pos]
-embedded = false
+embedded = true
